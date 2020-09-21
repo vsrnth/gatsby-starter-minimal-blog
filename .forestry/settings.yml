@@ -4,12 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
+- type: document
   path: content/posts
-  label: posts
-  create: all
+  label: postsssss
   match: "**/*"
-  new_doc_ext: ".mdx"
 - type: document
   path: content/posts
   label: Post
